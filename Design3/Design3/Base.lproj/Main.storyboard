@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="L04ExerciseSolution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="255" image="Girl" translatesAutoresizingMaskIntoConstraints="NO" id="rEQ-Nw-bua">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="504"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="254" verticalHuggingPriority="251" image="Close" translatesAutoresizingMaskIntoConstraints="NO" id="hBg-tP-iPz">
+                                <rect key="frame" x="321" y="20" width="34" height="34"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chat" translatesAutoresizingMaskIntoConstraints="NO" id="RFf-1F-NJw">
+                                <rect key="frame" x="262" y="391" width="93" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joanna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biC-gx-RDT">
+                                <rect key="frame" x="20" y="20" width="141" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="&quot;I'd like to meet you&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE7-on-8wV">
+                                <rect key="frame" x="20" y="504" width="335" height="27.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cv-ss-eOr">
+                                <rect key="frame" x="20" y="541.5" width="335" height="105.5"/>
+                                <string key="text">Personality is defined as the characteristic sets of behaviors, cognitions, and emotional patterns that evolve from biological and environmental factors. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4cv-ss-eOr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4qb-MJ-4PR"/>
+                            <constraint firstItem="hBg-tP-iPz" firstAttribute="leading" secondItem="biC-gx-RDT" secondAttribute="trailing" constant="160" id="6O3-yi-DOR"/>
+                            <constraint firstItem="vE7-on-8wV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EEV-mo-hLX"/>
+                            <constraint firstItem="RFf-1F-NJw" firstAttribute="bottom" secondItem="rEQ-Nw-bua" secondAttribute="bottom" constant="-20" id="FTn-mB-uMl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4cv-ss-eOr" secondAttribute="bottom" constant="20" id="GhR-24-23A"/>
+                            <constraint firstItem="4cv-ss-eOr" firstAttribute="top" secondItem="vE7-on-8wV" secondAttribute="bottom" constant="10" id="IlM-Sh-kWC"/>
+                            <constraint firstItem="rEQ-Nw-bua" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MeV-FO-U0s"/>
+                            <constraint firstItem="vE7-on-8wV" firstAttribute="top" secondItem="rEQ-Nw-bua" secondAttribute="bottom" id="OaW-uf-ay7"/>
+                            <constraint firstItem="hBg-tP-iPz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Sqt-cY-2py"/>
+                            <constraint firstItem="rEQ-Nw-bua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TbF-f6-aDJ"/>
+                            <constraint firstItem="biC-gx-RDT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="U4L-92-6So"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4cv-ss-eOr" secondAttribute="trailing" constant="20" id="Yyx-po-iWs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBg-tP-iPz" secondAttribute="trailing" constant="20" id="gXj-xw-IAJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RFf-1F-NJw" secondAttribute="trailing" constant="20" id="lcf-ae-1wL"/>
+                            <constraint firstItem="biC-gx-RDT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vsK-yX-EZC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rEQ-Nw-bua" secondAttribute="trailing" id="wvJ-Xv-AG0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vE7-on-8wV" secondAttribute="trailing" constant="20" id="ygy-M6-vo5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chat" width="93" height="93"/>
+        <image name="Close" width="34" height="34"/>
+        <image name="Girl" width="414" height="504"/>
+    </resources>
+</document>
