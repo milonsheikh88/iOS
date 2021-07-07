@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="L02ExerciseSolution" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="9T1-ZX-P0O">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="sgP-lJ-nqz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="PEC-af-7fU">
+                                <rect key="frame" x="0.0" y="598" width="414" height="298"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="euU-4p-VEn">
+                                <rect key="frame" x="347" y="64" width="47" height="41"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardcore  Avo Toast" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcu-yU-Jdi">
+                                <rect key="frame" x="20" y="64" width="139" height="82"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqc-kV-Kae">
+                                <rect key="frame" x="20" y="781" width="374" height="61"/>
+                                <string key="text">As you sleep, your body is hard at work digesting yesterday's dinner. By the time you wake up, your body and brain are demanding fresh fuel. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PEC-af-7fU" secondAttribute="trailing" id="0eq-wx-ZT9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oqc-kV-Kae" secondAttribute="bottom" constant="20" id="29z-vJ-rya"/>
+                            <constraint firstAttribute="trailing" secondItem="9T1-ZX-P0O" secondAttribute="trailing" id="7sD-b5-Elv"/>
+                            <constraint firstItem="euU-4p-VEn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8LK-0P-5ly"/>
+                            <constraint firstAttribute="bottom" secondItem="PEC-af-7fU" secondAttribute="bottom" id="FxI-wj-Rda"/>
+                            <constraint firstItem="sgP-lJ-nqz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Muj-6F-iua"/>
+                            <constraint firstItem="PEC-af-7fU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="P7h-hp-dPe"/>
+                            <constraint firstAttribute="trailing" secondItem="sgP-lJ-nqz" secondAttribute="trailing" id="dqq-Gh-kll"/>
+                            <constraint firstItem="Bcu-yU-Jdi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gBL-35-6XX"/>
+                            <constraint firstItem="oqc-kV-Kae" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="go9-pt-7NN"/>
+                            <constraint firstItem="Bcu-yU-Jdi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hkI-aL-zXf"/>
+                            <constraint firstItem="9T1-ZX-P0O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jZJ-0j-yRV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="euU-4p-VEn" secondAttribute="trailing" constant="20" id="lB7-95-0Eo"/>
+                            <constraint firstItem="sgP-lJ-nqz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mle-wt-LOm"/>
+                            <constraint firstAttribute="bottom" secondItem="9T1-ZX-P0O" secondAttribute="bottom" id="nBB-vP-ScJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oqc-kV-Kae" secondAttribute="trailing" constant="20" id="rxu-O6-LlB"/>
+                            <constraint firstItem="9T1-ZX-P0O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tyf-5g-fQ4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+    </resources>
+</document>
